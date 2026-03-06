@@ -1,0 +1,19 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[manifest]
+members = [
+    "typing-game-new",
+    "uv-project",
+]
+
+[[package]]
+name = "typing-game-new"
+version = "0.1.0"
+source = { virtual = "typing_game_new" }
+
+[[package]]
+name = "uv-project"
+version = "0.1.0"
+source = { virtual = "." }
